@@ -17,7 +17,7 @@ fn App() -> Html {
             <p style="font-size: 2rem; margin: 1rem 0;">{ *counter }</p>
 
             <div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
-                <h1 style="font-size: 5rem;">{ "Barni" }</h1>
+                <h1 style="font-size: 5rem;">{ "Barni (:" }</h1>
             </div>
         </div>
     }
