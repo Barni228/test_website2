@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Yew App</title>
+    
+<link rel="modulepreload" href="/test_website-3c985ac4b31302e6.js" crossorigin=anonymous integrity="sha384-lRxZyk4uMmRHcBhxvzVxZ6Zt+NTkc2NLDEpDu9zd9LUgIn8qgQlxzH5uuF4iRZKb">
+<link rel="preload" href="/test_website-3c985ac4b31302e6_bg.wasm" crossorigin=anonymous integrity="sha384-B8hU89OpqmK9fYuMLQXvnBKsBwXYD130O5d/5BZxHbCSJhyNFc1vT8kIr6uxtdla" as="fetch" type="application/wasm"></head>
+    <body>
+<script type="module" nonce="t/GlT6Zt9oNcW9d353kTIQ==">
+import init, * as bindings from '/test_website-3c985ac4b31302e6.js';
+const wasm = await init('/test_website-3c985ac4b31302e6_bg.wasm');
+
+
+window.wasmBindings = bindings;
+
+
+dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
+
+</script></body>
+</html>
